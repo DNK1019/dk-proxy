@@ -1,0 +1,16 @@
+{
+    "name": "Simple Proxy",
+    "description": "A proxy",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "proxy"
+        
+    ],
+    "host_permissions": [
+        "*://www.drewkrause.dev/"
+      ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
